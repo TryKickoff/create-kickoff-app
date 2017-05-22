@@ -3,6 +3,7 @@
   "scripts": {
     "build": "node packages/react-scripts/scripts/build.js",
     "changelog": "lerna-changelog",
+    "create-kickoff-app": "tasks/cka.sh",
     "create-react-app": "tasks/cra.sh",
     "e2e": "tasks/e2e-simple.sh",
     "postinstall": "lerna bootstrap && cd packages/react-error-overlay/ && npm run build:prod",
