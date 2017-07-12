@@ -43,6 +43,7 @@ module.exports = (resolve, rootDir, isEjecting) => {
     moduleNameMapper: {
       '^react-native$': 'react-native-web',
     },
+    moduleFileExtensions: ['web.js', 'js', 'json', 'web.jsx', 'jsx', 'node', 'mjs'],
   };
   if (rootDir) {
     config.rootDir = rootDir;
@@ -78,7 +79,7 @@ module.exports = (resolve, rootDir, isEjecting) => {
             'eject from the default setup. You can do so by running ' +
             chalk.bold('npm run eject') +
             ' but remember that this is a one-way operation. ' +
-            'You may also file an issue with Create React App to discuss ' +
+            'You may also file an issue with Create Kickoff App to discuss ' +
             'supporting more options out of the box.\n'
         )
       );

@@ -2,7 +2,13 @@
 
 This package includes the global command for [Create Kickoff App](https://github.com/trykickoff/create-kickoff-app).<br>
 
-It is a custom fork of [Create React App](https://github.com/trykickoff/create-kickoff-app), which in addition to the original feature set also includes the [Kickoff](https://github.com/trykickoff/kickoff) front-end framework and the ability to compile SCSS files.
+It is a custom fork of [Create React App](https://github.com/trykickoff/create-kickoff-app), which in addition to the original feature set also includes:-
+
+* the [Kickoff](https://github.com/trykickoff/kickoff) front-end framework
+* the ability to compile SCSS files
+* [React Components]((https://github.com/trykickoff/react-components) for easy use of Kickoff
+* support for .mjs files
+* access to the Uglify JS options without ejecting
 
 It is in active development and will change over time.
 
