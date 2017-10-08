@@ -1,12 +1,12 @@
 {
   "name": "create-kickoff-app",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "keywords": [
     "react"
   ],
-  "description": "Create Kickoff Apps with no build configuration.",
+  "description": "Create Kickoff apps with no build configuration.",
   "repository": "trykickoff/create-kickoff-app",
-  "license": "BSD-3-Clause",
+  "license": "MIT",
   "engines": {
     "node": ">=4"
   },
